@@ -1,4 +1,5 @@
 {
+  "comment": "a basic test",
   "name": "allowed-role-definitions",
   "properties": {
     "displayName": "Allowed Role Definitions",
