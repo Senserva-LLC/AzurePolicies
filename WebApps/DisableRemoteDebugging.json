@@ -1,4 +1,6 @@
 {
+      "name":"DisableRemoteDebugging",
+      "description": "Disable Remote Debugging in Azure Application",
       "parameters": {
         "effect": {
           "type": "String",
