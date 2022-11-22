@@ -1,0 +1,14 @@
+{
+  "policies": [
+    {
+      "name": "ResourceNamingRestrictions",
+      "group": "General",
+      "filename": "ResourceNamingRestrictions.json"
+    },
+    {
+      "name": "DisableRemoteDebugging",
+      "group": "WebApps",
+      "filename": "DisableRemoteDebugging.json"
+    }
+  ]
+}
