@@ -1,1 +1,60 @@
+{
+  "description": "This policy can be adapted to allow an organization to enforce a naming convention over their resources. This policy will deny the creation of a resource when the first segment does not contain a value in ['vm', 'vnet', 'kv', 'sql'], the second segment does not contain a value in ['dev', 'test', 'prod'], and the third segment does not contain a value in ['centralus',  'westus'] (segments split by a '-').",
+  "mode": "Indexed",
+  "policyRule": {
+    "if": {
+      "anyOf": [
+        {
+          "count": {
+            "value": [
+              "vm",
+              "vnet",
+              "kv",
+              "sql"
+            ],
+            "name": "pattern",
+            "where": {
+              "value": "[split(field('name'), '-')[0]]",
+              "like": "[current('pattern')]"
+            }
+          },
+          "notEquals": 1
+        },
+        {
+          "count": {
+            "value": [
+              "dev",
+              "test",
+              "prod"
+            ],
+            "name": "pattern",
+            "where": {
+              "value": "[split(field('name'), '-')[1]]",
+              "like": "[current('pattern')]"
+            }
+          },
+          "notEquals": 1
+        },
+        {
+          "count": {
+            "value": [
+              "centralus",
+              "eastus",
+              "westus"
+            ],
+            "name": "pattern",
+            "where": {
+              "value": "[split(field('name'), '-')[2]]",
+              "like": "[current('pattern')]"
+            }
+          },
+          "notEquals": 1
+        }
+      ]
+    },
+    "then": {
+      "effect": "deny"
+    }
+  },
+  "parameters": {}
 
