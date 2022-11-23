@@ -5,7 +5,14 @@
       "group": "AppConfiguration",
       "policyType": "Azure",
       "enforcementMode":"DoNotEnforce",
-      "nonComplianceMessages":["message1", "message two"]
+       "nonComplianceMessages": [
+            {
+                "message": "message1."
+            },
+         {
+                "message": "message2."
+         }
+        ],
     },
     {
       "name": "ResourceNamingRestrictions",
@@ -13,7 +20,14 @@
       "policyType": "Senserva",
       "filename": "ResourceNamingRestrictions.json",
       "enforcementMode":"DoNotEnforce",
-      "nonComplianceMessages":["message1", "message two"]
+       "nonComplianceMessages": [
+            {
+                "message": "message1."
+            },
+         {
+                "message": "message2."
+         }
+        ],
     },
     {
       "name": "DisableRemoteDebugging",
@@ -21,7 +35,14 @@
       "policyType": "Senserva",
       "filename": "DisableRemoteDebugging.json",
       "enforcementMode":"DoNotEnforce",
-      "nonComplianceMessages":["message1", "message two"]
+       "nonComplianceMessages": [
+            {
+                "message": "message1."
+            },
+         {
+                "message": "message2."
+         }
+        ],
     }
   ]
 }
