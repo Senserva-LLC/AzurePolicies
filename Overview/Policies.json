@@ -4,18 +4,21 @@
       "name": "test",
       "group": "Test",
       "policyType", "Azure",
+      "enforcementMode":"DoNotEnforce"
     },
     {
       "name": "ResourceNamingRestrictions",
       "group": "General",
       "policyType", "Senserva",
-      "filename": "ResourceNamingRestrictions.json"
+      "filename": "ResourceNamingRestrictions.json",
+      "enforcementMode":"DoNotEnforce"
     },
     {
       "name": "DisableRemoteDebugging",
       "group": "WebApps",
       "policyType", "Senserva",
-      "filename": "DisableRemoteDebugging.json"
+      "filename": "DisableRemoteDebugging.json",
+      "enforcementMode":"DoNotEnforce"
     }
   ]
 }
