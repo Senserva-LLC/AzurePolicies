@@ -1,13 +1,20 @@
 {
   "policies": [
     {
+      "name": "test",
+      "group": "Test",
+      "policyType", "Azure",
+    },
+    {
       "name": "ResourceNamingRestrictions",
       "group": "General",
+      "policyType", "Senserva",
       "filename": "ResourceNamingRestrictions.json"
     },
     {
       "name": "DisableRemoteDebugging",
       "group": "WebApps",
+      "policyType", "Senserva",
       "filename": "DisableRemoteDebugging.json"
     }
   ]
