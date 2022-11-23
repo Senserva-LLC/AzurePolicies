@@ -3,14 +3,14 @@
     {
       "name": "App Configuration should disable public network access",
       "group": "AppConfiguration",
-      "policyType", "Azure",
+      "policyType": "Azure",
       "enforcementMode":"DoNotEnforce",
       "nonComplianceMessages":["message1", "message two"]
     },
     {
       "name": "ResourceNamingRestrictions",
       "group": "General",
-      "policyType", "Senserva",
+      "policyType": "Senserva",
       "filename": "ResourceNamingRestrictions.json",
       "enforcementMode":"DoNotEnforce",
       "nonComplianceMessages":["message1", "message two"]
@@ -18,7 +18,7 @@
     {
       "name": "DisableRemoteDebugging",
       "group": "WebApps",
-      "policyType", "Senserva",
+      "policyType": "Senserva",
       "filename": "DisableRemoteDebugging.json",
       "enforcementMode":"DoNotEnforce",
       "nonComplianceMessages":["message1", "message two"]
