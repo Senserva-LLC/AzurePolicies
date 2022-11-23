@@ -1,6 +1,12 @@
 {
   "policies": [
     {
+      "name": "Enable Microsoft Defender for Cloud on your subscription",
+      "group": "AppConfiguration",
+      "policyType": "Azure",
+      "enforcementMode":"Default"
+    },
+    {
       "name": "App Configuration should disable public network access",
       "group": "AppConfiguration",
       "policyType": "Azure",
