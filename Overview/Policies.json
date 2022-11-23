@@ -1,7 +1,8 @@
 {
   "policies": [
     {
-      "name": "/providers/Microsoft.Authorization/policyDefinitions/ac076320-ddcf-4066-b451-6154267e8ad2",
+      "id": "/providers/Microsoft.Authorization/policyDefinitions/ac076320-ddcf-4066-b451-6154267e8ad2",
+      "name: "ac076320-ddcf-4066-b451-6154267e8ad2",
       "group": "AppConfiguration",
       "policyType": "Azure",
       "enforcementMode":"Default"
