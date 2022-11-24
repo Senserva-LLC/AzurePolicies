@@ -3,6 +3,7 @@
     {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/ac076320-ddcf-4066-b451-6154267e8ad2",
       "name": "ac076320-ddcf-4066-b451-6154267e8ad2",
+      "displayName": "Enable Microsoft Defender for Cloud on your subscription",
       "category": "AppConfiguration",
       "policyType": "Azure",
       "enforcementMode":"Default"
@@ -10,6 +11,7 @@
     {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/3d9f5e4c-9947-4579-9539-2a7695fbc187",
       "name": "3d9f5e4c-9947-4579-9539-2a7695fbc187",
+      "displayName": "App Configuration should disable public network access",
       "category": "AppConfiguration",
       "policyType": "Azure",
       "enforcementMode":"DoNotEnforce",
@@ -24,6 +26,7 @@
     },
     {
       "name": "ResourceNamingRestrictions",
+      "displayName": "Resource Naming Restrictions",
       "category": "General",
       "policyType": "Senserva",
       "filename": "ResourceNamingRestrictions.json",
@@ -39,6 +42,7 @@
     },
     {
       "name": "DisableRemoteDebugging",
+      "displayName": "Disable Remote Debugging",
       "category": "WebApps",
       "policyType": "Senserva",
       "filename": "DisableRemoteDebugging.json",
