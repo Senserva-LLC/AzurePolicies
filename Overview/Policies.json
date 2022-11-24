@@ -1,13 +1,12 @@
 {
   "policies": [
      {
-      "id": "/providers/Microsoft.Authorization/policyDefinitions/ac076320-ddcf-4066-b451-6154267e8ad2",
-      "name": "ac076320-ddcf-4066-b451-6154267e8ad2",
-      "displayName": "Enable Microsoft Defender for Cloud on your subscription",
+      "name": "test",
+      "displayName": "our own",
       "category": "General",
-      "policyType": "Azure Inititive",
+      "policyType": "Senserva Inititive",
       "enforcementMode":"Default",
-       "filename": "inititives.json",
+       "filename": "initiative1.json",
     },
     {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/ac076320-ddcf-4066-b451-6154267e8ad2",
