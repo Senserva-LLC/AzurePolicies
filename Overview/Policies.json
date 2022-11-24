@@ -3,13 +3,14 @@
     {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/ac076320-ddcf-4066-b451-6154267e8ad2",
       "name": "ac076320-ddcf-4066-b451-6154267e8ad2",
-      "group": "AppConfiguration",
+      "category": "AppConfiguration",
       "policyType": "Azure",
       "enforcementMode":"Default"
     },
     {
-      "name": "App Configuration should disable public network access",
-      "group": "AppConfiguration",
+      "id": "/providers/Microsoft.Authorization/policyDefinitions/3d9f5e4c-9947-4579-9539-2a7695fbc187",
+      "name": "3d9f5e4c-9947-4579-9539-2a7695fbc187",
+      "category": "AppConfiguration",
       "policyType": "Azure",
       "enforcementMode":"DoNotEnforce",
        "nonComplianceMessages": [
@@ -23,7 +24,7 @@
     },
     {
       "name": "ResourceNamingRestrictions",
-      "group": "General",
+      "category": "General",
       "policyType": "Senserva",
       "filename": "ResourceNamingRestrictions.json",
       "enforcementMode":"DoNotEnforce",
@@ -38,7 +39,7 @@
     },
     {
       "name": "DisableRemoteDebugging",
-      "group": "WebApps",
+      "category": "WebApps",
       "policyType": "Senserva",
       "filename": "DisableRemoteDebugging.json",
       "enforcementMode":"DoNotEnforce",
