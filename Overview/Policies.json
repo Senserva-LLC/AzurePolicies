@@ -2,7 +2,7 @@
   "policies": [
     {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/b5629c75-5c77-4422-87b9-2509e680f8de",
-      "name": "b5629c75-5c77-4422-87b9-2509e680f8de",
+      "name": "b5629c75-5c77-4422-87b9-2509e680f8de", 
       "displayName": "CMMC Level 3",
       "notes": "scanner",
       "policyType": "Azure Initiative",
@@ -121,8 +121,18 @@
         ],
     },
     {
+      "id": "/providers/Microsoft.Authorization/policyDefinitions/3d9f5e4c-9947-4579-9539-2a7695fbc187",
+      "name": "3d9f5e4c-9947-4579-9539-2a7695fbc187",
+      "displayName": "App Configuration should disable public network access",
+      "description":"App Configuration should disable public network acces",
+      "category": "AppConfiguration",
+      "policyType": "Azure",
+      "enforcementMode":"DoNotEnforce",
+    },
+    {
       "name": "ResourceNamingRestrictions",
       "displayName": "Resource Naming Restrictions",
+      "description":"Resource Naming Restrictions",
       "category": "General",
       "policyType": "Senserva",
       "filename": "ResourceNamingRestrictions.json",
@@ -135,6 +145,14 @@
                 "message": "message2."
          }
         ],
+    },
+    {
+      "name": "Disable Remote Debugging",
+      "displayName": "Disable Remote Debugging in Azure Application",
+      "category": "General",
+      "policyType": "Senserva",
+      "filename": "ResourceNamingRestrictions.json",
+      "enforcementMode":"DoNotEnforce",
     },
      {
       "name": "test",
