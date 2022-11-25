@@ -2,7 +2,7 @@
   "policies": [
     {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/b5629c75-5c77-4422-87b9-2509e680f8de",
-      "name": "b5629c75-5c77-4422-87b9-2509e680f8de"
+      "name": "b5629c75-5c77-4422-87b9-2509e680f8de",
       "displayName": "CMMC Level 3",
       "notes": "scanner",
       "policyType": "Azure Initiative",
@@ -29,7 +29,7 @@
     },
     {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/a1181c5f-672a-477a-979a-7d58aa086233",
-      "name": "a1181c5f-672a-477a-979a-7d58aa086233"
+      "name": "a1181c5f-672a-477a-979a-7d58aa086233",
       "displayName": "Security Center standard pricing tier should be selected",
       "notes": "scanner",
       "category": "Security Center",
@@ -49,12 +49,22 @@
     },
      {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/308fbb08-4ab8-4e67-9b29-592e93fb94fa",
-      "name": "308fbb08-4ab8-4e67-9b29-592e93fb94fa"
+      "name": "308fbb08-4ab8-4e67-9b29-592e93fb94fa",
       "displayName": "Azure Defender for Storage should be enabled",
       "category": "Security Center",
       "policyType": "Azure",
       "enforcementMode":"AuditIfNotExists, Disabled",
       "description":"Azure Defender for Storage provides detections of unusual and potentially harmful attempts to access or exploit storage accounts."
+    },
+     {
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/9d46421d-1a48-4636-8d1a-5525ed29172d",
+      "name": "9d46421d-1a48-4636-8d1a-5525ed29172d",
+       "displayName": "Configure Microsoft Defender for Databases to be enabled",
+      "category": "Security Center",
+      "policyType": "Azure",
+      "notes": "deployment",
+      "enforcementMode":"DeployIfNotExists",
+      "description":"Configure Microsoft Defender for Databases to protect your Azure SQL Databases, Managed Instances, Open-source relational databases and Cosmos DB."
     },
     {
      "id": "/providers/Microsoft.Authorization/policyDefinitions/ffb6f416-7bd2-4488-8828-56585fef2be9",
