@@ -16,7 +16,7 @@
       "notes": "scanner",
       "policyType": "Azure Initiative",
       "category": "Security Center",
-      "description":"Azure Security Benchmark"
+      "description":"The Azure Security Benchmark initiative represents the policies and controls implementing security recommendations defined in Azure Security Benchmark v3, see https://aka.ms/azsecbm. This also serves as the Microsoft Defender for Cloud default policy initiative. You can directly assign this initiative, or manage its policies and compliance results within Microsoft Defender for Cloud.",
     },
     {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/1a5bb27d-173f-493e-9568-eb56638dde4d",
