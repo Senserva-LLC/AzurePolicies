@@ -1,6 +1,13 @@
 {
   "policies": [
     {
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/b5629c75-5c77-4422-87b9-2509e680f8de",
+      "name": "b5629c75-5c77-4422-87b9-2509e680f8de"
+      "displayName": "CMMC Level 3",
+      "policyType": "Azure Initiative",
+      "description":"This initiative includes policies that address a subset of Cybersecurity Maturity Model Certification (CMMC) Level 3 requirements. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/cmmc-initiative."
+    },
+    {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
       "name": "1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
       "displayName": "Azure Security Benchmark",
