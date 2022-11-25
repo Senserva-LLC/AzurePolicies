@@ -5,7 +5,7 @@
       "name": "b5629c75-5c77-4422-87b9-2509e680f8de", 
       "displayName": "CMMC Level 3",
       "notes": "scanner",
-      "policyType": "Azure Initiative",
+      "policyType": "Ignore Azure Initiative",
       "category": "Regulatory Compliance",
       "description":"This initiative includes policies that address a subset of Cybersecurity Maturity Model Certification (CMMC) Level 3 requirements. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/cmmc-initiative."
     },
