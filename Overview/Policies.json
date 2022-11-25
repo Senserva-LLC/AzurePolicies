@@ -30,7 +30,7 @@
       "displayName": "Enable Microsoft Defender for Cloud on your subscription",
       "category": "AppConfiguration",
       "policyType": "Azure",
-      "enforcementMode":"Default"
+      "enforcementMode":"Default",
       "description":"Enable Microsoft Defender for Cloud on your subscription"
     },
     {
