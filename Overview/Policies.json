@@ -43,7 +43,7 @@
       "notes": "scanner",
       "category": "Security Center",
       "policyType": "Azure",
-      "enforcementMode":"Audit, Disabled",
+      "enforcementMode":"Default, DoNotEnforce",
       "description":"The standard pricing tier enables threat detection for networks and virtual machines, providing threat intelligence, anomaly detection, and behavior analytics in Azure Security Center."
     },
     {
