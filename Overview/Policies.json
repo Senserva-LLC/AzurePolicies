@@ -6,8 +6,17 @@
       "displayName": "CMMC Level 3",
       "notes": "scanner",
       "policyType": "Azure Initiative",
-      "category": "Security Center",
+      "category": "Regulatory Compliance",
       "description":"This initiative includes policies that address a subset of Cybersecurity Maturity Model Certification (CMMC) Level 3 requirements. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/cmmc-initiative."
+    },
+    {
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/179d1daa-458f-4e47-8086-2a68d0d6c38f",
+      "name": "179d1daa-458f-4e47-8086-2a68d0d6c38f"
+      "displayName": "NIST SP 800-53 Rev. 5",
+      "notes": "scanner",
+      "policyType": "Azure Initiative",
+      "category": "Regulatory Compliance",
+      "description":"National Institute of Standards and Technology (NIST) SP 800-53 Rev. 5 provides a standardized approach for assessing, monitoring and authorizing cloud computing products and services to manage information security risk. These policies address a subset of NIST SP 800-53 R5 controls. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/nist800-53r5-initiative."
     },
     {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
