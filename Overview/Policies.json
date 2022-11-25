@@ -49,6 +49,16 @@
       "description":"Enable export to Log Analytics workspace of Microsoft Defender for Cloud data. This policy deploys an export to Log Analytics workspace configuration with your conditions and target workspace on the assigned scope. To deploy this policy on newly created subscriptions, open the Compliance tab, select the relevant non-compliant assignment and create a remediation task."
     },
     {
+      "id": "/providers/Microsoft.Authorization/policyDefinitions/689f7782-ef2c-4270-a6d0-7664869076bd",
+      "name": "689f7782-ef2c-4270-a6d0-7664869076bd",
+      "notes": "extra cost",
+      "displayName": "Configure Microsoft Defender CSPM to be enabled",
+      "category": "AppConfiguration",
+      "policyType": "Azure",
+      "enforcementMode":"DeployIfNotExists",
+      "description":"Defender Cloud Security Posture Management (CSPM) provides enhanced posture capabilities and a new intelligent cloud security graph to help identify, prioritize, and reduce risk. Defender CSPM is available in addition to the free foundational security posture capabilities turned on by default in Defender for Cloud."
+    },
+    {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/3d9f5e4c-9947-4579-9539-2a7695fbc187",
       "name": "3d9f5e4c-9947-4579-9539-2a7695fbc187",
       "displayName": "App Configuration should disable public network access",
