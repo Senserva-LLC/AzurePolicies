@@ -3,12 +3,12 @@
     {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
       "name": "1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
-       "displayName": "Azure Security Benchmark",
+      "displayName": "Azure Security Benchmark",
     },
     {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/1a5bb27d-173f-493e-9568-eb56638dde4d",
-      "name": "1a5bb27d-173f-493e-9568-eb56638dde4d"
-       "displayName": "CIS Microsoft Azure Foundations Benchmark v1.1.0",
+      "name": "1a5bb27d-173f-493e-9568-eb56638dde4d",
+      "displayName": "CIS Microsoft Azure Foundations Benchmark v1.1.0",
     },
      {
       "name": "test",
