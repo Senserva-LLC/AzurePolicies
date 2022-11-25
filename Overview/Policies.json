@@ -40,6 +40,15 @@
       "description":"The standard pricing tier enables threat detection for networks and virtual machines, providing threat intelligence, anomaly detection, and behavior analytics in Azure Security Center."
     },
     {
+     "id": "/providers/Microsoft.Authorization/policyDefinitions/ffb6f416-7bd2-4488-8828-56585fef2be9",
+      "name": "ffb6f416-7bd2-4488-8828-56585fef2be9",
+      "displayName": "Deploy export to Log Analytics workspace for Microsoft Defender for Cloud data",
+      "category": "AppConfiguration",
+      "policyType": "Azure",
+      "enforcementMode":"DeployIfNotExists",
+      "description":"Enable export to Log Analytics workspace of Microsoft Defender for Cloud data. This policy deploys an export to Log Analytics workspace configuration with your conditions and target workspace on the assigned scope. To deploy this policy on newly created subscriptions, open the Compliance tab, select the relevant non-compliant assignment and create a remediation task."
+    },
+    {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/3d9f5e4c-9947-4579-9539-2a7695fbc187",
       "name": "3d9f5e4c-9947-4579-9539-2a7695fbc187",
       "displayName": "App Configuration should disable public network access",
