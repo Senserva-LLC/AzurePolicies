@@ -70,7 +70,7 @@
       "name": "9cb3cc7a-b39b-4b82-bc89-e5a5d9ff7b97",
       "displayName": "Configure Azure Defender to be enabled on SQL Servers and SQL Managed Instances",
       "category": "Security Center",
-      "policyType": "Azure",
+      "policyType": "Azure Initiative",
       "enforcementMode":"",
       "description":"Enable Azure Defender on your SQL Servers and SQL Managed Instances to detect anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases."
     },
@@ -79,7 +79,7 @@
       "name": "9d46421d-1a48-4636-8d1a-5525ed29172d",
        "displayName": "Configure Microsoft Defender for Databases to be enabled",
       "category": "Security Center",
-      "policyType": "Azure",
+      "policyType": "Azure Initiative",
       "notes": "deployment",
       "enforcementMode":"DeployIfNotExists",
       "description":"Configure Microsoft Defender for Databases to protect your Azure SQL Databases, Managed Instances, Open-source relational databases and Cosmos DB."
@@ -89,7 +89,7 @@
       "name": "ffb6f416-7bd2-4488-8828-56585fef2be9",
       "displayName": "Deploy export to Log Analytics workspace for Microsoft Defender for Cloud data",
       "category": "Security Center",
-      "policyType": "Azure",
+      "policyType": "Azure Initiative",
       "enforcementMode":"DeployIfNotExists",
       "description":"Enable export to Log Analytics workspace of Microsoft Defender for Cloud data. This policy deploys an export to Log Analytics workspace configuration with your conditions and target workspace on the assigned scope. To deploy this policy on newly created subscriptions, open the Compliance tab, select the relevant non-compliant assignment and create a remediation task."
     },
@@ -99,7 +99,7 @@
       "notes": "extra cost",
       "displayName": "Configure Microsoft Defender CSPM to be enabled",
       "category": "Security Center",
-      "policyType": "Azure",
+      "policyType": "Azure Initiative",
       "enforcementMode":"DeployIfNotExists",
       "description":"Defender Cloud Security Posture Management (CSPM) provides enhanced posture capabilities and a new intelligent cloud security graph to help identify, prioritize, and reduce risk. Defender CSPM is available in addition to the free foundational security posture capabilities turned on by default in Defender for Cloud."
     },
@@ -109,7 +109,7 @@
       "displayName": "App Configuration should disable public network access",
       "description":"App Configuration should disable public network acces",
       "category": "AppConfiguration",
-      "policyType": "Azure",
+      "policyType": "Azure Initiative",
       "enforcementMode":"DoNotEnforce",
        "nonComplianceMessages": [
             {
@@ -126,7 +126,7 @@
       "displayName": "App Configuration should disable public network access",
       "description":"App Configuration should disable public network acces",
       "category": "AppConfiguration",
-      "policyType": "Azure",
+      "policyType": "Azure Initiative",
       "enforcementMode":"DoNotEnforce",
     },
     {
