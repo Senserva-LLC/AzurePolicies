@@ -62,7 +62,7 @@
       "displayName": "Azure Defender for Storage should be enabled",
       "category": "Security Center",
       "policyType": "Azure",
-      "enforcementMode":"AuditIfNotExists, Disabled",
+      "enforcementMode":"Default,DoNotEnforce",
       "description":"Azure Defender for Storage provides detections of unusual and potentially harmful attempts to access or exploit storage accounts."
     },
     {
