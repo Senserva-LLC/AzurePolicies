@@ -65,6 +65,15 @@
       "enforcementMode":"AuditIfNotExists, Disabled",
       "description":"Azure Defender for Storage provides detections of unusual and potentially harmful attempts to access or exploit storage accounts."
     },
+    {
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/9cb3cc7a-b39b-4b82-bc89-e5a5d9ff7b97",
+      "name": "9cb3cc7a-b39b-4b82-bc89-e5a5d9ff7b97"
+      "displayName": "Configure Azure Defender to be enabled on SQL Servers and SQL Managed Instances",
+      "category": "Security Center",
+      "policyType": "Azure",
+      "enforcementMode":"",
+      "description":"Enable Azure Defender on your SQL Servers and SQL Managed Instances to detect anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases."
+    },
      {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/9d46421d-1a48-4636-8d1a-5525ed29172d",
       "name": "9d46421d-1a48-4636-8d1a-5525ed29172d",
