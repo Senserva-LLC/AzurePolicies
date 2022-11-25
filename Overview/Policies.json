@@ -11,7 +11,7 @@
     },
     {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/179d1daa-458f-4e47-8086-2a68d0d6c38f",
-      "name": "179d1daa-458f-4e47-8086-2a68d0d6c38f"
+      "name": "179d1daa-458f-4e47-8086-2a68d0d6c38f",
       "displayName": "NIST SP 800-53 Rev. 5",
       "notes": "scanner",
       "policyType": "Azure Initiative",
