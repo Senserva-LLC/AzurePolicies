@@ -62,7 +62,7 @@
     },
     {
        "id": "/providers/Microsoft.Authorization/policyDefinitions/951af2fa-529b-416e-ab6e-066fd85ac459",
-      "name": "951af2fa-529b-416e-ab6e-066fd85ac459"
+      "name": "951af2fa-529b-416e-ab6e-066fd85ac459",
       "displayName": "Deploy - Configure diagnostic settings for Azure Key Vault to Log Analytics workspace",
       "category": "Key Vault",
       "policyType": "Azure Initiative",
