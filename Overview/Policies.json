@@ -11,6 +11,16 @@
       "description":"This initiative includes policies that address a subset of Cybersecurity Maturity Model Certification (CMMC) Level 3 requirements. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/cmmc-initiative."
     },
     {
+       "id": "/providers/Microsoft.Authorization/policySetDefinitions/c676748e-3af9-4e22-bc28-50feed564afb" 
+      "name": "c676748e-3af9-4e22-bc28-50feed564afb"
+      "displayName": "PCI DSS v4",
+      "enforcementMode":"Default",
+      "notes": "scanner",
+      "policyType": "Azure Initiative",
+      "category": "Regulatory Compliance",
+      "description":"The Payment Card Industry (PCI) Data Security Standards (DSS) is a global information security standard designed to prevent fraud through increased control of credit card data. Compliance with PCI DSS is required for any organization that stores, processes, or transmits payment and cardholder data. These policies address a subset of PCI-DSS v4 controls. For more information, visit https://docs.microsoft.com/azure/governance/policy/samples/pci-dss-3-2-1"
+    },
+    {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/179d1daa-458f-4e47-8086-2a68d0d6c38f",
       "name": "179d1daa-458f-4e47-8086-2a68d0d6c38f",
       "displayName": "NIST SP 800-53 Rev. 5",
