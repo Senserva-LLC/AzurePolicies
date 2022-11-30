@@ -5,6 +5,7 @@
       "name": "b5629c75-5c77-4422-87b9-2509e680f8de", 
       "displayName": "CMMC Level 3",
       "enforcementMode":"Default",
+      "level": "advanced",
       "notes": "scanner",
       "policyType": "Ignore Azure Initiative",
       "category": "Regulatory Compliance",
@@ -15,6 +16,7 @@
       "name": "c676748e-3af9-4e22-bc28-50feed564afb",
       "displayName": "PCI DSS v4",
       "enforcementMode":"Default",
+      "level": "advanced",
       "notes": "scanner",
       "policyType": "Azure Initiative",
       "category": "Regulatory Compliance",
@@ -26,6 +28,7 @@
       "displayName": "HITRUST/HIPAA",
       "enforcementMode":"Default",
       "notes": "scanner",
+      "level": "advanced",
       "policyType": "Azure Initiative",
       "category": "Regulatory Compliance",
       "description":"Health Information Trust Alliance (HITRUST) helps organizations from all sectors-but especially healthcare-effectively manage data, information risk, and compliance. HITRUST certification means that the organization has undergone a thorough assessment of the information security program. These policies address a subset of HITRUST controls. For more information, visit https://docs.microsoft.com/azure/governance/policy/samples/hipaa-hitrust-9-2"
@@ -36,19 +39,10 @@
       "displayName": "NIST SP 800-53 Rev. 5",
       "enforcementMode":"Default",
       "notes": "scanner",
+      "level": "advanced",
       "policyType": "Azure Initiative",
       "category": "Regulatory Compliance",
       "description":"National Institute of Standards and Technology (NIST) SP 800-53 Rev. 5 provides a standardized approach for assessing, monitoring and authorizing cloud computing products and services to manage information security risk. These policies address a subset of NIST SP 800-53 R5 controls. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/nist800-53r5-initiative."
-    },
-    {
-      "id": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
-      "name": "1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
-      "displayName": "Azure Security Benchmark",
-      "enforcementMode":"Default",
-      "notes": "scanner",
-      "policyType": "Azure Initiative",
-      "category": "Security Center",
-      "description":"The Azure Security Benchmark initiative represents the policies and controls implementing security recommendations defined in Azure Security Benchmark v3, see https://aka.ms/azsecbm. This also serves as the Microsoft Defender for Cloud default policy initiative. You can directly assign this initiative, or manage its policies and compliance results within Microsoft Defender for Cloud.",
     },
     {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/1a5bb27d-173f-493e-9568-eb56638dde4d",
@@ -56,15 +50,29 @@
       "displayName": "CIS Microsoft Azure Foundations Benchmark v1.1.0",
       "enforcementMode":"Default",
       "notes": "scanner",
+      "level": "advanced",
       "policyType": "Azure Initiative",
-      "category": "Security Center",
+      "category": "Regulatory Compliance",
       "description":"The Center for Internet Security (CIS) is a nonprofit entity whose mission is to 'identify, develop, validate, promote, and sustain best practice solutions for cyberdefense.' CIS benchmarks are configuration baselines and best practices for securely configuring a system. These policies address a subset of CIS Microsoft Azure Foundations Benchmark v1.1.0 controls. For more information, visit https://aka.ms/cisazure110-initiative"
     },
+    {
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
+      "name": "1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
+      "displayName": "Azure Security Benchmark",
+      "enforcementMode":"Default",
+      "notes": "scanner",
+      "level": "moderate",
+      "policyType": "Azure Initiative",
+      "category": "Security Center",
+      "description":"The Azure Security Benchmark initiative represents the policies and controls implementing security recommendations defined in Azure Security Benchmark v3, see https://aka.ms/azsecbm. This also serves as the Microsoft Defender for Cloud default policy initiative. You can directly assign this initiative, or manage its policies and compliance results within Microsoft Defender for Cloud.",
+    },
+    
     {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/a1181c5f-672a-477a-979a-7d58aa086233",
       "name": "a1181c5f-672a-477a-979a-7d58aa086233",
       "displayName": "Security Center standard pricing tier should be selected",
       "notes": "scanner",
+      "level": "basic",
       "category": "Security Center",
       "policyType": "Azure",
       "enforcementMode":"Default,DoNotEnforce",
@@ -75,6 +83,8 @@
       "name": "ac076320-ddcf-4066-b451-6154267e8ad2",
       "displayName": "Enable Microsoft Defender for Cloud on your subscription",
       "category": "Security Center",
+      "notes": "scanner",
+      "level": "basic",
       "policyType": "Azure",
       "notes": "deployment",
       "enforcementMode":"Default,DoNotEnforce",
@@ -85,6 +95,8 @@
       "name": "951af2fa-529b-416e-ab6e-066fd85ac459",
       "displayName": "Deploy - Configure diagnostic settings for Azure Key Vault to Log Analytics workspace",
       "category": "Key Vault",
+      "notes": "scanner",
+      "level": "basic",
       "policyType": "Azure Initiative",
       "notes": "deployment",
       "enforcementMode":"DeployIfNotExists, Disabled",
@@ -95,6 +107,8 @@
       "name": "308fbb08-4ab8-4e67-9b29-592e93fb94fa",
       "displayName": "Azure Defender for Storage should be enabled",
       "category": "Security Center",
+      "notes": "scanner",
+      "level": "basic",
       "policyType": "Azure",
       "enforcementMode":"Default,DoNotEnforce",
       "description":"Azure Defender for Storage provides detections of unusual and potentially harmful attempts to access or exploit storage accounts."
@@ -104,6 +118,8 @@
       "name": "9cb3cc7a-b39b-4b82-bc89-e5a5d9ff7b97",
       "displayName": "Configure Azure Defender to be enabled on SQL Servers and SQL Managed Instances",
       "category": "Security Center",
+      "notes": "scanner",
+      "level": "basic",
       "policyType": "Azure Initiative",
       "enforcementMode":"Default,DoNotEnforce",
       "description":"Enable Azure Defender on your SQL Servers and SQL Managed Instances to detect anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases."
@@ -111,8 +127,10 @@
      {
       "id": "/providers/Microsoft.Authorization/policySetDefinitions/9d46421d-1a48-4636-8d1a-5525ed29172d",
       "name": "9d46421d-1a48-4636-8d1a-5525ed29172d",
-       "displayName": "Configure Microsoft Defender for Databases to be enabled",
+      "displayName": "Configure Microsoft Defender for Databases to be enabled",
       "category": "Security Center",
+      "notes": "scanner",
+      "level": "basic",
       "policyType": "Azure Initiative",
       "notes": "deployment",
       "enforcementMode":"Default,DoNotEnforce",
@@ -123,6 +141,8 @@
       "name": "ffb6f416-7bd2-4488-8828-56585fef2be9",
       "displayName": "Deploy export to Log Analytics workspace for Microsoft Defender for Cloud data",
       "category": "Security Center",
+      "notes": "scanner",
+      "level": "basic",
       "policyType": "Azure Initiative",
       "enforcementMode":"DeployIfNotExists",
       "description":"Enable export to Log Analytics workspace of Microsoft Defender for Cloud data. This policy deploys an export to Log Analytics workspace configuration with your conditions and target workspace on the assigned scope. To deploy this policy on newly created subscriptions, open the Compliance tab, select the relevant non-compliant assignment and create a remediation task."
@@ -133,26 +153,11 @@
       "notes": "extra cost",
       "displayName": "Configure Microsoft Defender CSPM to be enabled",
       "category": "Security Center",
+      "notes": "scanner",
+      "level": "basic",
       "policyType": "Azure Initiative",
       "enforcementMode":"DeployIfNotExists",
       "description":"Defender Cloud Security Posture Management (CSPM) provides enhanced posture capabilities and a new intelligent cloud security graph to help identify, prioritize, and reduce risk. Defender CSPM is available in addition to the free foundational security posture capabilities turned on by default in Defender for Cloud."
-    },
-    {
-      "id": "/providers/Microsoft.Authorization/policyDefinitions/3d9f5e4c-9947-4579-9539-2a7695fbc187",
-      "name": "3d9f5e4c-9947-4579-9539-2a7695fbc187",
-      "displayName": "App Configuration should disable public network access",
-      "description":"App Configuration should disable public network acces",
-      "category": "AppConfiguration",
-      "policyType": "Azure Initiative",
-      "enforcementMode":"DoNotEnforce",
-       "nonComplianceMessages": [
-            {
-                "message": "message1."
-            },
-         {
-                "message": "message2."
-         }
-        ],
     },
     {
       "id": "/providers/Microsoft.Authorization/policyDefinitions/3d9f5e4c-9947-4579-9539-2a7695fbc187",
@@ -169,6 +174,8 @@
       "description":"Resource Naming Restrictions",
       "category": "General",
       "policyType": "Senserva",
+      "notes": "scanner",
+      "level": "basic",
       "filename": "ResourceNamingRestrictions.json",
       "enforcementMode":"DoNotEnforce",
        "nonComplianceMessages": [
@@ -185,6 +192,8 @@
       "displayName": "Disable Remote Debugging in Azure Application",
       "category": "General",
       "policyType": "Senserva",
+      "notes": "scanner",
+      "level": "basic",
       "filename": "ResourceNamingRestrictions.json",
       "enforcementMode":"DoNotEnforce",
     },
@@ -194,6 +203,8 @@
       "category": "General",
       "policyType": "Senserva Inititive",
       "enforcementMode":"Default",
+      "notes": "scanner",
+      "level": "basic",
       "filename": "initiative1.json",
       "policyType": "Azure",
       "description":""
@@ -204,6 +215,8 @@
       "description":"Disable Remote Debugging",
       "category": "WebApps",
       "policyType": "Senserva",
+      "notes": "scanner",
+      "level": "basic",
       "filename": "DisableRemoteDebugging.json",
       "enforcementMode":"DoNotEnforce",
        "nonComplianceMessages": [
