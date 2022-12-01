@@ -12,7 +12,29 @@
       "description":"This initiative includes policies that address a subset of Cybersecurity Maturity Model Certification (CMMC) Level 3 requirements. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/cmmc-initiative."
     },
     {
-       "id": "/providers/Microsoft.Authorization/policySetDefinitions/c676748e-3af9-4e22-bc28-50feed564afb" 
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/e95f5a9f-57ad-4d03-bb0b-b1d16db93693",
+      "name": "e95f5a9f-57ad-4d03-bb0b-b1d16db93693",
+      "displayName": "FedRAMP Moderate",
+      "enforcementMode":"Default",
+      "level": "advanced",
+      "notes": "scanner",
+      "policyType": "Azure Initiative",
+      "category": "Regulatory Compliance",
+      "description":"FedRAMP is a U.S. government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud-based products and services. FedRAMP defines a set of controls for Low, Moderate, or High security impact level systems based on NIST baseline controls. These policies address a subset of FedRAMP (Moderate) controls. Additional policies will be added in upcoming releases. For more information, visit https://www.fedramp.gov/documents-templates/ "
+    },
+    {
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/d5264498-16f4-418a-b659-fa7ef418175f",
+      "name": "d5264498-16f4-418a-b659-fa7ef418175f",
+      "displayName": "FedRAMP High",
+      "enforcementMode":"Default",
+      "level": "advanced",
+      "notes": "scanner",
+      "policyType": "Azure Initiative",
+      "category": "Regulatory Compliance",
+      "description":"FedRAMP is a US government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud-based products and services. FedRAMP defines a set of controls for Low, Moderate, or High security impact level systems based on NIST baseline controls. These policies address a subset of FedRAMP (High) controls. For more information, visit https://docs.microsoft.com/azure/compliance/offerings/offering-fedramp "
+    },    
+    {
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/c676748e-3af9-4e22-bc28-50feed564afb" 
       "name": "c676748e-3af9-4e22-bc28-50feed564afb",
       "displayName": "PCI DSS v4",
       "enforcementMode":"Default",
